@@ -3,4 +3,5 @@
 **/__pycache__
 .vscode
 kaggle.json/
-monthly_csv.csv/
+monthly_csv.csv
+Data/
