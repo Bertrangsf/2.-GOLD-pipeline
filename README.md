@@ -40,10 +40,8 @@ from bs4 BeautifulSoup
 
 ### Visualization:
 import pandas as pd
-import numpy as np
-import seaborn as sns
 import matplotlib.pyplot as plt
-import plotly.express as px
+
 ```
 ## Technology: 
 
@@ -55,25 +53,24 @@ A list of technologies used within the project:
 
 ## Methodology: 
 
-The realization of the project is divided into up to 3 parts: 
+The realization of the project is divided into up to 4 parts: 
 
-1. Preliminary cleaning of the dataset. 
+1. Preliminary cleaning of the dataset.csv. 
 
-* Import the csv from the files.
-* - Adding columns (year, month, day, currency)
+* Adding columns (year, month, day, currency)
 
 2. Scrapping. 
 
 * Requesting to the URL the data from the table.
-* - Coverting the price into float.
-* - Adding columns (year, month, day, currency).
-* - Deleting the duplicate info.
-* - Import the df from the csv and concatenating it with the df obtained by scrapping.
+* Coverting the price into float.
+* Adding columns (year, month, day, currency).
+* Deleting the duplicate info.
+* Import the df from the csv and concatenating it with the df obtained by scrapping.
 
 3. Final df
 
 * Importing the concatenated df and applying the function to add the new result of that day.
-* - Deleting the duplicate info.
+* Deleting the duplicate info.
 
 4. Vizualization
 
