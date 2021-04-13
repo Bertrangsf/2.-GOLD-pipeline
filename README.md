@@ -78,7 +78,7 @@ The realization of the project is divided into up to 3 parts:
 4. Vizualization
 
 * Plt of the historical gold prices (1970-2020)
-* Plt of the actual gold prices (2021 - actual)
+* Plt of the actual gold prices (2021 - current)
 
 ## Author
 
